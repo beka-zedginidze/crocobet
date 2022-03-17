@@ -25,7 +25,7 @@ export class UserDetailsComponent implements OnInit {
   ngOnInit(): void {
     this.getUserById();
   }
-
+  // get user detail information by id
   getUserById() {
     this.data.getUser(this.currentId).subscribe((res)=> {
       this.userDetails = res;

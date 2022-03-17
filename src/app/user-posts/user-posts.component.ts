@@ -25,7 +25,7 @@ export class UserPostsComponent implements OnInit {
   ngOnInit(): void {
     this.getUserPostsById();
   }
-
+  //get user posts by userid
   getUserPostsById() {
     this.data.getPost(this.currentId).subscribe((res)=> {
       this.posts = res;
