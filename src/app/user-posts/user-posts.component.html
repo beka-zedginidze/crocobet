@@ -1,0 +1,7 @@
+<div>
+    <a [routerLink]="['/detail-info/' + userId]"><button class="purple-btn">Back To User Details</button></a>
+    <div *ngFor="let post of posts" class="posts">
+        <p>{{ post.title }}</p>
+        <p>{{ post.body }}</p>
+    </div>      
+</div>

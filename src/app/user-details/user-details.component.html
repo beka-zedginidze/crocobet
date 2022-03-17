@@ -1,0 +1,9 @@
+<div class="main">
+    <a routerLink="/"><button class="purple-btn">Back to User List</button></a>
+    <a [routerLink]="['/user-posts/' + userDetails?.id ]"><button class="purple-btn">User Posts</button></a>  
+    <h2>User Detail Information</h2>  
+    <p><span>Name:</span> {{ userDetails?.name }}</p>
+    <p><span>Phone:</span> {{ userDetails?.phone }}</p>
+    <p><span>Email:</span> {{ userDetails?.email }}</p>
+    <p><span>Address:</span> {{ address?.city }},{{ address?.street }}, {{ address?.suite }}</p>
+</div>

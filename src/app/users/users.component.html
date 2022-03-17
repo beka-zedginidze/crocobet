@@ -1,0 +1,11 @@
+<div class="main">
+    <h1>Users</h1>
+    <div class="horizontal">
+        <div class="user-list" *ngFor="let user of userData">
+            <a [routerLink]="['/detail-info/' + user.id]">
+              <button class="purple-btn" >{{ user.name }}</button>
+            </a> 
+          </div>
+    </div>
+    
+</div>

@@ -1,0 +1,42 @@
+.main {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.user-list {
+    margin-top: 20px;
+}
+
+.purple-btn {
+    width: 140px;
+    height: 35px;
+    margin-left: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #6e07cd;
+}
+.horizontal {
+    margin: auto;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.posts {
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    background-color: rgb(170, 155, 155);
+    color: white;
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 41px -14px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 41px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 41px -14px rgba(0,0,0,0.75);
+}
+
+span {
+    font-weight: bold;
+}
